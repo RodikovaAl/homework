@@ -1,0 +1,27 @@
+.parent{
+  height: 350px;
+  overflow: auto;
+  background: rgba(104, 51, 250, 0.20);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: 1px dashed rgb(2, 2, 2);
+}
+.block{
+  font-size: 14px;
+  text-align: center;
+  color: aliceblue;
+
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 250px;
+  display: inline-block;
+
+  background: rgba(0, 35, 233, 0.726);
+  border-radius: 15px;
+  border: 1px double rgb(2, 2, 2);
+
+  box-shadow: inset 5px 10px 20px rgb(0, 0, 0);
+
+}
