@@ -1,0 +1,284 @@
+:root {
+    --general-dark-text: #343434;
+    --general-color: #FFFFFF;
+    --accent-color: #FF9619;
+    --transition: all .4s;
+    --font-family: "Raleway", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+.body {
+    font-family: "Raleway Medium", sans-serif;
+    background-color: var(--general-color);
+    color: var(--general-dark-text);
+    /* color: var(--general-color); */
+    line-height: 1.5;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+
+.button {
+    max-width: 210px;
+    width: 100%;
+
+    height: 62px;
+    padding: 21px 13px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--general-color);
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-color);
+}
+.button:hover {
+
+    background: #5B5B5B;
+}
+
+
+/* ========================================================= */
+.header {
+    height: 590px;
+    max-width: 100%;
+    background: var(--general-color);
+
+}
+
+.header__top {
+    padding-top: 44px;
+    margin-bottom: 25px;
+}
+
+.header__top-inner {}
+
+.nav {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr auto 1fr;
+    color: var(--general-dark-text);
+}
+
+.nav__list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    gap: 62px;
+
+}
+
+.nav__item {
+    align-self: center;
+}
+
+.nav__link {
+    padding: 5px 0;
+    display: block;
+}
+
+/* ========================================================= */
+.header__hero {
+
+    max-height: 745px;
+    background: #CCB2A3;
+
+}
+
+.hero {}
+
+.container {}
+
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.hero__content {
+    margin-top: 174px;
+}
+
+.hero__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    color: var(--general-color);
+
+    margin-bottom: 60px;
+
+}
+
+.hero__title::first-letter {
+    color: var(--accent-color);
+
+}
+
+.title {}
+
+.hero__img-control {}
+
+.hero__img-control--mobile {}
+
+.hero__button {}
+
+.button {}
+
+.hero__info {
+    max-width: 870px;
+    max-height: 617px;
+    margin-bottom: 129px;
+}
+
+.hero__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.27;
+    color: var(--general-color);
+    text-align: end;
+    padding: 35px 0;
+    ;
+}
+
+.hero__slider {}
+
+.swiper {}
+
+.swiper-wrapper {}
+
+.hero__wrrapper {}
+
+.swiper-slide {}
+
+.swiper-pagination {}
+
+
+
+/* ========================================================= */
+/* ========================================================= */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* Кнопка «Нажмите, чтобы развернуть» */
+
+.dropdown__label {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: inherit;
+    padding: 15px 20px;
+
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*  Ненумерованный список будет спрятан по умолчанию */
+
+.dropdown__list {
+    position: absolute;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+    display: none;
+}
+
+
+.dropdown__item {
+    padding: 15px;
+    background-color: var(--general-color);
+    color: #343434cc;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.dropdown__item:hover {
+    color: var(--general-dark-text);
+}
+
+.dropdown__link {
+    color: var(--general-dark-text);
+    text-decoration: none;
+}
+
+
+input[type=checkbox]:checked~label {
+    background-color: inherit;
+}
+
+
+input[type=checkbox]:checked~ul {
+    display: block;
+}
+
+
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
+/* ========================================================= */
